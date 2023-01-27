@@ -101,12 +101,12 @@ p{
     }
     .awesome{
         
-        font-size: 27px;
+        font-size: larger;
         
     }
     p{
         color:#E5E7EB ;
-        font-size: 17px;
+        font-size:medium;
         margin-top: 0;
     }
     .subsection02{
