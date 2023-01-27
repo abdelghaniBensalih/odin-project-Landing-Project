@@ -84,7 +84,13 @@ p{
     border:solid #3882f6;
     border-radius: 10px;
 }
-@media (max-width:880px) {
+.header-item{
+    font-size:36;
+    font-weight: bold;
+    color:#1F2937;
+    text-align: center;
+}
+@media (max-width:870px) {
     .items{
         display: flex;
         flex-direction: column;
@@ -93,14 +99,25 @@ p{
         margin: 0;
         padding: 20px;
     }
+    .awesome{
+        
+        font-size: 27px;
+        
+    }
+    p{
+        color:#E5E7EB ;
+        font-size: 17px;
+        margin-top: 0;
+    }
+    .subsection02{
+        width: auto;
+        height: 200px;
+    }
+    .header-item{
+        font-size: larger;
+    }
 }
-#header-item{
-    font-size:36;
-    font-weight: bold;
-    color:#1F2937;
-    text-align: center;
-    font-weight: bold;
-}
+
 .quotesection{
     display: flex;
     justify-content: center;
