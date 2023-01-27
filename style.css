@@ -115,6 +115,7 @@ p{
     }
     .header-item{
         font-size: larger;
+        text-align: center;
     }
 }
 
